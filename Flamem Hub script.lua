@@ -15,7 +15,7 @@ Section:NewButton("Trap Hub", "", function()
 end)
 
 Section:NewButton("Insta Breathing and Insta Demon", "", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/InFlames121212122/Flamem-Hub/main/Bretihing.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/InFlames121212122/Flame-hub-instga/main/Bretihing.lua"))()
 end)
 
 local Tab = Window:NewTab("Pls Donete")
