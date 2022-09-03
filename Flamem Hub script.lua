@@ -49,3 +49,19 @@ local Section = Tab:NewSection("Speed Race")
 Section:NewButton("Smox hub", "", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/SmoxHub/SmoxHub/main/Speed%20Race%20Clicker"))()
 end)
+
+local Tab = Window:NewTab("Tower Defense Simulator")
+
+local Section = Tab:NewSection("Tower Defense Simulator")
+
+Section:NewButton("Smox hub", "", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SmoxHub/SmoxHub/main/Speed%20Race%20Clicker"))()
+end)
+
+local Tab = Window:NewTab("DOORS")
+
+local Section = Tab:NewSection("DOORS")
+
+Section:NewButton("Doors", "", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/OminousVibes-Exploit/Scripts/main/doors/main.lua"))()
+end)
