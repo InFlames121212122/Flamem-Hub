@@ -7,7 +7,7 @@ local Section = Tab:NewSection("Project Slayers")
 
 
 Section:NewButton("Codex Hub", "", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/TrapstarKSSKSKSKKS/Main/main/Project%20Slayer"))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/CodexHubX/CodexHubX/main/Projectnew.md'))()
 end)
 
 Section:NewButton("Trap Hub", "", function()
