@@ -41,3 +41,11 @@ local Section = Tab:NewSection("Motel Simulator")
 Section:NewButton("Money Auto Farm", "", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/JustEzpi/ROBLOX-Scripts/main/Motel_Farm"))()
 end)
+
+local Tab = Window:NewTab("Speed Race")
+
+local Section = Tab:NewSection("Speed Race")
+
+Section:NewButton("Smox hub", "", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SmoxHub/SmoxHub/main/Speed%20Race%20Clicker"))()
+end)
