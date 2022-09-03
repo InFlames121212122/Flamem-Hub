@@ -7,15 +7,15 @@ local Section = Tab:NewSection("Project Slayers")
 
 
 Section:NewButton("Codex Hub", "", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/CodexHubX/CodexHubX/main/Projectnew.md'))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TrapstarKSSKSKSKKS/Main/main/Project%20Slayer"))()
 end)
 
 Section:NewButton("Trap Hub", "", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/TrapstarKSSKSKSKKS/Main/main/Project%20Slayer"))()
 end)
 
-Section:NewButton("Insta Breathing and Insta Demon", "", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/InFlames121212122/Flame-hub-instga/main/Bretihing.lua"))()
+Section:NewButton("Carley", "", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/lmmake/fun/main/projectslayer.lua"))()
 end)
 
 local Tab = Window:NewTab("Pls Donete")
