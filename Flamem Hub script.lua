@@ -15,7 +15,7 @@ Section:NewButton("Trap Hub", "", function()
 end)
 
 Section:NewButton("Insta Breathing and Insta Demon", "", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/InFlames121212122/Flame-hub-instga/main/Bretihing.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/InFlames121212122/Flamem-Hub/main/Bretihing.lua"))()
 end)
 
 local Tab = Window:NewTab("Pls Donete")
@@ -58,13 +58,6 @@ Section:NewButton("Smox hub", "", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/SmoxHub/SmoxHub/main/Speed%20Race%20Clicker"))()
 end)
 
-local Tab = Window:NewTab("Tower Defense Simulator")
-
-local Section = Tab:NewSection("Tower Defense Simulator")
-
-Section:NewButton("Smox hub", "", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/SmoxHub/SmoxHub/main/Speed%20Race%20Clicker"))()
-end)
 
 local Tab = Window:NewTab("DOORS")
 
