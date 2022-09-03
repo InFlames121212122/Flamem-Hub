@@ -18,20 +18,8 @@ Section:NewButton("Carley", "", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/lmmake/fun/main/projectslayer.lua"))()
 end)
 
-Section:NewButton("Fish Farm On", "", function()
-    getgenv().FishFarm = true
-    --Dont edit anything below or the script wont work
-    getgenv().Discord = "discord.gg/carley"
-    getgenv().Script = "carleyhub"
-    loadstring(game:HttpGet("https://carley.wtf/private/"..Discord.."/"..Script.."/za"))()
-end)
-
-Section:NewButton("Fish Farm Off ", "", function()
-    getgenv().FishFarm = false
---Dont edit anything below or the script wont work
-getgenv().Discord = "discord.gg/carley"
-getgenv().Script = "carleyhub"
-loadstring(game:HttpGet("https://carley.wtf/private/"..Discord.."/"..Script.."/za"))()
+Section:NewButton("Trap hub", "", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TrapstarKSSKSKSKKS/Main/main/Project%20Slayer"))()
 end)
 
 local Tab = Window:NewTab("Pls Donete")
