@@ -10,6 +10,14 @@ Section:NewButton("Codex Hub", "", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/CodexHubX/CodexHubX/main/Projectnew.md'))()
 end)
 
+Section:NewButton("Trap Hub", "", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TrapstarKSSKSKSKKS/Main/main/Project%20Slayer"))()
+end)
+
+Section:NewButton("Insta Breathing and Insta Demon", "", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/InFlames121212122/Flamem-Hub/main/Bretihing.lua"))()
+end)
+
 local Tab = Window:NewTab("Pls Donete")
 
 local Section = Tab:NewSection("Pls Donete")
