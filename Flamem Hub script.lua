@@ -33,3 +33,11 @@ local Section = Tab:NewSection("Blox Fruits")
 Section:NewButton("Mukuro Hub", "", function()
     loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
 end)
+
+local Tab = Window:NewTab("Motel Simulator")
+
+local Section = Tab:NewSection("Motel Simulator")
+
+Section:NewButton("Money Auto Farm", "", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JustEzpi/ROBLOX-Scripts/main/Motel_Farm"))()
+end)
