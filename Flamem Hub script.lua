@@ -18,9 +18,6 @@ Section:NewButton("Carley", "", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/lmmake/fun/main/projectslayer.lua"))()
 end)
 
-Section:NewButton("Trap hub", "", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/TrapstarKSSKSKSKKS/Main/main/Project%20Slayer"))()
-end)
 
 local Tab = Window:NewTab("Pls Donete")
 
