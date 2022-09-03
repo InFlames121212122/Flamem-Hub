@@ -18,20 +18,20 @@ Section:NewButton("Carley", "", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/lmmake/fun/main/projectslayer.lua"))()
 end)
 
-Section:NewToggle("Fish Farm", "Fishing farm", function(state)
-    if state then
-        getgenv().FishFarm = true
-        --Dont edit anything below or the script wont work
-        getgenv().Discord = "discord.gg/carley"
-        getgenv().Script = "carleyhub"
-        loadstring(game:HttpGet("https://carley.wtf/private/"..Discord.."/"..Script.."/za"))()
-    else
-        getgenv().FishFarm = false
-        --Dont edit anything below or the script wont work
-        getgenv().Discord = "discord.gg/carley"
-        getgenv().Script = "carleyhub"
-        loadstring(game:HttpGet("https://carley.wtf/private/"..Discord.."/"..Script.."/za"))()
-    end
+Section:NewButton("Fish Farm On", "", function()
+    getgenv().FishFarm = true
+    --Dont edit anything below or the script wont work
+    getgenv().Discord = "discord.gg/carley"
+    getgenv().Script = "carleyhub"
+    loadstring(game:HttpGet("https://carley.wtf/private/"..Discord.."/"..Script.."/za"))()
+end)
+
+Section:NewButton("Fish Farm Off ", "", function()
+    getgenv().FishFarm = false
+--Dont edit anything below or the script wont work
+getgenv().Discord = "discord.gg/carley"
+getgenv().Script = "carleyhub"
+loadstring(game:HttpGet("https://carley.wtf/private/"..Discord.."/"..Script.."/za"))()
 end)
 
 local Tab = Window:NewTab("Pls Donete")
